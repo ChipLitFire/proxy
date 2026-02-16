@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHUG Proxy</title>
+</head>
+<body>
+    <h1>Proxied CHUG Site</h1>
+    <iframe id="proxyFrame" style="width:100%; height:80vh; border:1px solid #ccc;"></iframe>
+
+    <script>
+        // Load the proxied site into the iframe
+        document.getElementById('proxyFrame').src = '/proxy';
+    </script>
+</body>
+</html>
